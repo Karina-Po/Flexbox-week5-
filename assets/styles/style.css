@@ -1,0 +1,115 @@
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    max-width: 100%;
+    margin: 0px auto;
+}
+.title {
+    background-color: darkgray;
+    display: flex;
+    height: 60px;
+    justify-content:center;
+    align-items: center;
+}
+.container1 {
+    max-width: 100%;
+    display: flex;
+    background-color: antiquewhite;
+}
+.content {
+    flex-direction: row;
+    height: 300px;
+    width: 60%;
+    text-align: center;
+}
+.list {
+    display:flex;
+    flex-wrap:wrap;
+}
+.list1 {
+    background-color: bisque;
+    height: 70px;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    align-self:stretch;
+    flex-wrap:wrap;
+    flex: 0 1 40%;
+    margin: 30px;
+    
+}
+.list2 {
+    background-color: bisque;
+    height: 70px;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    align-self:stretch;
+    flex-wrap:wrap;
+    flex: 0 1 40%;
+    margin: 30px;
+}
+    .list3 {    
+    background-color: bisque;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 89%;
+    margin: 30px;
+    align-self:flex-end; 
+}
+.main2 {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    width: 40%;
+    height: 300px;
+    order: 4;
+}
+.footer {
+    background-color: darkgray;
+}
+.footer-row{
+    height: 90px;
+    display: flex;
+    justify-content:space-around;
+    }
+.footer-row1 {
+        background-color: white;
+        height: 60px;
+        width: 200px;
+        text-align: center;
+        flex: 0 0 20%;
+    }
+.footer-row2 {
+        background-color: white;
+        height: 60px;
+        width: 200px;
+        text-align: center;
+        flex: 0 0 20%;
+    }
+.footer-row3 {
+        background-color: white;
+        height: 60px;
+        width: 200px;
+        text-align: center;
+        flex: 0 0 20%;}   
+.footer-row4 {
+        background-color: white;
+        height: 60px;
+        width: 200px;
+        text-align: center;
+        flex: 0 0 20%;
+    }         
